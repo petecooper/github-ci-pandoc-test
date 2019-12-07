@@ -4,4 +4,5 @@ before_install:
   - sudo apt install -y pandoc
 script:
   - pandoc --version
-  - sudo uname -a
+after_success:
+  - echo "Success."
