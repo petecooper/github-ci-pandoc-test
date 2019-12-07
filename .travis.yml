@@ -2,7 +2,7 @@ dist: bionic
 lang: ruby
 before_install:
   - sudo uname -a
-#  - sudo apt update
+  - sudo apt update
   - sudo apt install -y pandoc
 script:
   - pandoc --version
