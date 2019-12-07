@@ -6,6 +6,5 @@ before_install:
   - sudo apt install -y pandoc
 script:
   - pandoc --version
-  - echo "Hello, Jen."
 after_success:
   - echo "Success."
