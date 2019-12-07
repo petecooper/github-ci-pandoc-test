@@ -1,6 +1,9 @@
 lang: ruby
 before_install:
-  - sudo apt update
   - sudo apt install -y pandoc
+addons:
+  apt:
+    update: true
 script:
-  - make
+  - sudo uname -a
+  - echo "Hello world."
