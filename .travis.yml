@@ -1,0 +1,5 @@
+lang: ruby
+before_install:
+  - sudo apt install -y pandoc
+script:
+  - make
